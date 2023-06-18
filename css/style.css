@@ -56,7 +56,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: normal;
-    color: #888888;
+    color: #181818;
     margin: 0;
 }
 
@@ -348,7 +348,7 @@ a.contact_btn {
 }
 
 a.contact_btn:hover {
-    background: #005490;
+    background: #01426a;
     color: #fff;
 }
 
@@ -361,7 +361,7 @@ a.contact_btn:hover {
 ---------------------------------*/
 
 
-#Products .innerProducts {
+#products .innerProducts {
     padding: 60px 0px;
 }
 
@@ -389,7 +389,7 @@ img {
 }
 
 
-#aboutPullHandle{
+#aboutinnerPage{
     padding: 60px 0 40px 0 ;
 }
 
@@ -539,28 +539,35 @@ img {
 }
 
 .input-btn {    
-    width: 175px;
-    height: 50px;
+    width: 176px;
+    height: 49px;
     letter-spacing: 0px;
-    background: #005490;
+    background: #fff;
     border-radius: 3px;
-    color: #ffffff;
+    color: #005490;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 600;
-    border: 0px;
+    border: 2px solid #005490;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
 }
 
 .input-btn:hover {
-    background: #fff;
-    color: #222;
+    background: #01426a;
+    color: #fff;
+	text-decoration: underline;
 }
 
 /* Footer
----------------------------------*/
+---------------------------------
+#e66b80  red
+#ccb340 golden
+#66e680 green
+#738aff blue
+
+*/
 
 .footer_wrapper {
     background: #232323;
@@ -656,14 +663,14 @@ img {
     padding-bottom: 0px;
 }
 
-#Products {
+#products {
     padding: 60px 0 40px;
 }
 
-.Products_img{
+.products_img{
     text-align: center;
     font-size: 18px;
-	/*display: block;*/
+	/*display: block;
     padding: 4px;
     margin-bottom: 20px;
     /* line-height: 1.42857143; 
@@ -673,9 +680,10 @@ img {
     -webkit-transition: border .2s ease-in-out;
     -o-transition: border .2s ease-in-out;
     transition: border .2s ease-in-out;
+	color: #337ab7;
 	}
 
-.Products_img:hover{
+.products_img:hover{
 	z-index:1;
     box-shadow: 1px 2px 25px rgba(128, 128, 128, 0.5);
     border: 1px solid #01426a;
@@ -1073,15 +1081,7 @@ margin: 0 18px;
 .page_section.team{
 padding: 40px 0;
 }
-, #clients {
-padding: 40px 0;
-}
-.client_logos ul li {
-display: inline;
-margin: 0 25px;
-padding: 11px 0;
-display: inline-block;
-}
+
 .social_links li {
 float: left; 
 }
@@ -1163,4 +1163,21 @@ footerlinks {
     font-weight: bold;
 }
 
+#aboutUs .img-circle{
 
+	padding-top: 70px;
+	height: auto;
+
+}
+.img-circle{
+	border-radius: 0px;
+    height: 400px;
+    visibility: visible;
+    animation-name: zoomIn;
+}
+/*
+#e66b80  red
+#ccb340 golden
+#66e680 green
+#738aff blue
+*/
