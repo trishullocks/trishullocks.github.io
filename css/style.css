@@ -312,11 +312,11 @@ a.read_more2:hover {
     padding: 60px 0 20px;
 }
 
-
+/*
 .page_section.alabaster {
     background: #fafafa;
 }
-
+*/
 .work_bottom {
     padding: 20px 0 0 0px;
 }
@@ -383,11 +383,11 @@ img {
     -moz-transition-property: -moz-transform, opacity;
     transition-property: transform, opacity;
 }
-
+/*
 .page_section.paddind {
     padding-bottom: 60px;
 }
-
+*/
 
 #aboutinnerPage{
     padding: 60px 0 40px 0 ;
@@ -399,113 +399,16 @@ img {
 
 /* Contact
 ---------------------------------*/
-.page_section.contact {
+.page_section {
     padding: 60px 0 40px;
 }
- /*
-.contact_section {
-    margin: 0 0 60px 0;
-}*/
-
+ 
 .contact_section h2 {
     font-size: 34px;
     color: #222222;
-    margin: 0 0 50px 0;
+   /* margin: 0 0 50px 0;*/
     text-transform: uppercase;
 	font-weight:bold;
-}
-
-.contact_block {
-    text-align: center;
-}
-
-.contact_block_icon {
-    border-radius: 50%;
-    height: 85px;
-    width: 85px;
-    margin: 0px auto 20px;
-}
-
-.contact_block_icon.icon2 {
-    border-color: #005490;
-}
-
-.contact_block_icon.icon3 {
-    border-color: #49b5e7;
-}
-
-.contact_block_icon span {
-    background: none repeat scroll 0 0 #f56eab;
-    border: 5px solid #fff;
-    border-radius: 50%;
-    display: block;
-    height: 100%;
-    width: 100%;
-}
-
-.contact_block_icon.icon2 {
-    border-color: #005490;
-}
-
-.contact_block_icon.icon2 span {
-    background: #005490;
-}
-
-.contact_block_icon.icon3 {
-    border-color: #49b5e7;
-}
-
-.contact_block_icon.icon3 span {
-    background: #49b5e7;
-}
-
-.contact_block_icon i {
-    color: #fff;
-    font-size: 36px;
-    margin-top: 0;
-    position: relative;
-    top: 26px;
-    z-index: 20;
-}
-
-.contact_block span {
-    display: block;
-    font-size: 16px;
-    color: #ffffff;
-    line-height: 20px;
-}
-
-.contact_block span a {
-    display: block;
-    font-size: 16px;
-    color: #ffffff;
-    line-height: 20px;
-}
-
-.contact_info {
-    font-size: 15px;
-    margin: 0 0 0 20px;
-    padding-left: 0;
-}
-
-.contact_info  h3 {
-    font-size: 24px;
-    font-weight: 600;
-    margin: 0 0 30px;
-    color: #fff;
-}
-
-.contact_info p {
-    line-height: 28px;
-    display: block;
-    font-size: 16px;
-    color: #ffffff;
-    margin: 0 0 30px;
-}
-
-
-.form {
-    margin: 0 66px 0 30px;
 }
 
 .input-text {
@@ -571,7 +474,7 @@ img {
 
 .footer_wrapper {
     background: #232323;
- padding: 25px 0;
+    padding: 25px 0;
 }
 
 .footer_bottom {
@@ -681,6 +584,7 @@ img {
     -o-transition: border .2s ease-in-out;
     transition: border .2s ease-in-out;
 	color: #337ab7;
+	margin-bottom:20px;
 	}
 
 .products_img:hover{
@@ -692,6 +596,7 @@ img {
  	-o-transition:  .7s ease-out;
  	transition: .7s ease-out;
 	cursor: pointer;
+
 }
 
 /* Products Filters */	
@@ -1078,19 +983,15 @@ padding-left:0px;
 .form {
 margin: 0 18px;
 }
+/*
 .page_section.team{
 padding: 40px 0;
-}
+}*/
 
 .social_links li {
 float: left; 
 }
-.contact_section{
-margin:0;
-}
-.page_section.contact {
-padding: 60px 0 50px;
-} 
+
 .navbar-inverse .navbar-toggle .icon-bar{
 background:#005490;
 }
@@ -1164,13 +1065,11 @@ footerlinks {
 }
 
 #aboutUs .img-circle{
-
-	padding-top: 70px;
-	height: auto;
-
+   padding-top: 70px;
+   height: auto;
 }
 .img-circle{
-	border-radius: 0px;
+    border-radius: 0px;
     height: 400px;
     visibility: visible;
     animation-name: zoomIn;
