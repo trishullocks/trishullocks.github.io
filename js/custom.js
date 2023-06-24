@@ -54,7 +54,7 @@ $(document).ready(function() {
             }
         }
     });
-
+});
    /* var container = $('#Products_wrapper');*/
 
 /*
@@ -125,7 +125,8 @@ $(document).ready(function() {
         setProjects();
     });*/
 
-});
+
+/*
 function sendContact(){
 
   var name = document.getElementById('yourName').value;
@@ -141,7 +142,7 @@ function sendContact(){
   };
   return formDetails;
 }
-
+*/
 
 
 
