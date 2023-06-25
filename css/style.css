@@ -941,6 +941,9 @@ div.mc-image {
 
 }
 @media (max-width: 768px) {
+.img-circle{
+margin-top:20px;
+}
 .bannerImg{
 display:none;
 }
