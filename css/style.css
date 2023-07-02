@@ -309,9 +309,19 @@ a.read_more2:hover {
 }
 
 .inner_section {
-    padding: 60px 0 20px;
+    padding: 30px 0 20px;
 }
-
+.download_button{
+	margin-bottom: 40px;
+    padding-left: 12px;
+    padding-top: 20px;
+}
+.download_button span {
+    font-size: 18px;
+    color: #333333;
+    display: block;
+    margin: 0 0 20px 0;
+}
 .work_bottom {
     padding: 20px 0 0 0px;
 }
@@ -354,10 +364,8 @@ a.contact_btn:hover {
 
 /* Products
 ---------------------------------*/
-
-
-#products .innerProducts {
-    padding: 60px 0px;
+.products{
+	margin-top:25px;
 }
 
 img {
@@ -382,15 +390,31 @@ img {
 #aboutinnerPage{
     padding: 60px 0 40px 0 ;
 }
-
+#innerProducts .products_img:hover{
+	z-index:1;
+    box-shadow: 1px 2px 25px rgba(128, 128, 128, 0.5);
+    border: 1px solid #01426a;
+    -webkit-transition: .7s ease-out;
+ 	-moz-transition: .7s ease-out;
+ 	-o-transition:  .7s ease-out;
+ 	transition: .7s ease-out;
+	cursor:default;
+}
+#innerProducts h3{padding-top:20px;}
 #aboutUs {
     padding: 60px 0;
 }
-
+.rotate_image {
+            -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
 /* Contact
 ---------------------------------*/
 .page_section {
-    padding: 60px 0 40px;
+    padding: 40px 0 30px;
 }
  
 .contact_section h2 {
@@ -464,7 +488,7 @@ img {
 
 .footer_wrapper {
     background: #232323;
-    padding: 25px 0;
+	padding-top: 25px;
 }
 
 .footer_bottom {
@@ -473,10 +497,11 @@ img {
 }
 
 .footer_bottom span {
-    display: block;
+	display: block;
     font-size: 14px;
-    color: #cccccc;
+    color: #738aff;
     text-align: center;
+    font-weight: 500;
 }
 
 .footer_bottom span a {
@@ -557,7 +582,7 @@ img {
 }
 
 #products {
-    padding: 60px 0 40px;
+    padding: 40px 0 20px;
 }
 
 .products_img{
@@ -941,8 +966,42 @@ div.mc-image {
 
 }
 @media (max-width: 768px) {
+#aboutUs {
+    padding: 30px 0 0 0;
+}	
+#products {
+    padding: 20px 0 0 0;
+}
+.page_section{
+	 padding: 25px 0 30px 0;
+}
+#aboutUs .pull-right img{
+	padding-top:0px;
+	margin-top: 0px;
+}
+#aboutinnerPage {
+    padding: 30px 0 20px 0;
+}
+#aboutinnerPage  .inner_section{
+    padding: 5px  0 20px;
+}
+#innerProducts h3{
+	padding-top: 0;
+}
+.download_button {
+	margin-bottom:20px;
+}
+.products {
+    margin-top: 10px;
+}
 .img-circle{
-margin-top:20px;
+	margin-top:20px;
+}
+.footer_wrapper{
+	padding:15px 0 0 0;
+}
+.footer_bottom{
+	padding:15px 0;
 }
 .bannerImg{
 display:none;
@@ -1034,6 +1093,9 @@ footerlinks {
     padding: 10px;
     text-transform: uppercase;
     letter-spacing: 3px;
+}
+.footerlinks ul li a{
+    color: #738aff;
 }
 .list-unstyled
 {padding-left:0;list-style:none}
